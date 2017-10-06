@@ -7,7 +7,7 @@ public class JenkinsTest {
 	@Test
 	public void printMessage()
 	{
-		System.out.println("Testing Jenkins configuration");
+		System.out.println("Testing Jenkins configuration..");
 	}
 
 }
