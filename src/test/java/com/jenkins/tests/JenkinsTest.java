@@ -13,6 +13,6 @@ public class JenkinsTest {
 		System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"/src/test/resources/IEDriverServer/IEDriverServer.exe");
 		WebDriver driver = new InternetExplorerDriver();
 		driver.get("https://www.google.com");
+		driver.quit();
 	}
-
 }
