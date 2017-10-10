@@ -25,7 +25,7 @@ public class JenkinsTest {
 		System.out.println("Testing Jenkins configuration..");
 		//System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"/src/test/resources/IEDriverServer/IEDriverServer.exe");
 		WebDriver driver = new RemoteWebDriver(new URL(URL), desiredCapabilities);
-		//WebDriver driver = new InternetExplorerDriver();
+		// WebDriver driver = new InternetExplorerDriver();
 		driver.get("https://www.google.com");
 		driver.quit();
 	}
